@@ -38,6 +38,7 @@
 
         android:inputType="number"
         android:hint="@string/strHintEtCod"
+        android:autofillHints="none"
 
         app:layout_constraintStart_toEndOf="@+id/tvCod"
         app:layout_constraintTop_toTopOf="parent"
