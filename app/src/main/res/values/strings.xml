@@ -1,0 +1,13 @@
+<resources>
+
+    //Essa pasta serve para dar nome a todos os componentes das telas. Caso a região não seja especificada
+
+    <string name="app_name">TrocaTela</string>
+
+    <string name="btlançamento">Launch</string>
+
+    <string name="strTvCod">Code:</string>
+
+    <string name="strHintEtCod">Enter the code of the product</string>
+
+</resources>

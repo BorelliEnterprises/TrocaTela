@@ -1,0 +1,13 @@
+<resources>
+
+    //Essa pasta serve para dar nome a todos os componentes das telas. Em PTBR
+
+    <string name="app_name">TrocaTela</string>
+
+    <string name="btlançamento">Lançamento</string>
+
+    <string name="strTvCod">Código:</string>
+
+    <string name="strHintEtCod">Digite o código do produto</string>
+
+</resources>
