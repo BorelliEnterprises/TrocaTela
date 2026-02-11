@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LancamentoActivity">
+
+
+    <!--In line of code 18 I make the content in this Text View be related to a variable in another directory.-->
+
+    <TextView
+
+        android:id="@+id/tvCod"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_margin="7dp"
+        android:layout_marginStart="4dp"
+
+        android:text="@string/strTvCod"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="NotSibling" />
+
+    <EditText
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/EtCod"
+
+        android:inputType="number"
+        android:hint="@string/strHintEtCod"
+
+        app:layout_constraintStart_toEndOf="@+id/tvCod"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="7dp"
+
+    />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
