@@ -1,6 +1,7 @@
 package com.example.trocatela
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,4 +18,7 @@ class LancamentoActivity : AppCompatActivity() {
             insets
         }
     }
+
+    fun btConfirmarOnClick(view: View) {}
+    fun btListarOnClick(view: View) {}
 }

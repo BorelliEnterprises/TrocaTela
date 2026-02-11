@@ -19,15 +19,12 @@
         android:layout_height="wrap_content"
 
         android:layout_margin="7dp"
-        android:layout_marginStart="4dp"
 
         android:text="@string/strTvCod"
         android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="NotSibling" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
 
@@ -47,7 +44,123 @@
 
     />
 
+    <TextView
+
+        android:id="@+id/tvQtd"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_margin="7dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+
+        android:text="@string/strTvQtd"
+        android:textSize="30sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EtCod" />
+
+    <EditText
+
+        android:id="@+id/EtQtd"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_margin="7dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="none"
+
+        android:hint="@string/strHintEtQtd"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+
+        app:layout_constraintStart_toEndOf="@+id/tvQtd"
+        app:layout_constraintTop_toBottomOf="@+id/EtCod"
+
+    />
 
 
+    <TextView
+
+        android:id="@+id/tvVlr"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_margin="7dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+
+        android:text="@string/strTvVlr"
+        android:textSize="30sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EtQtd" />
+
+    <EditText
+
+        android:id="@+id/EtVlr"
+        android:layout_width="0dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_margin="7dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints="none"
+
+        android:hint="@string/strHintEtVlr"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toEndOf="@+id/tvVlr"
+        app:layout_constraintTop_toBottomOf="@+id/EtQtd"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/btConfirmar"
+        android:onClick="btConfirmarOnClick"
+
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="7dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+
+        android:text="@string/strBtConfirmar"
+        android:textSize="30sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVlr" />
+
+    <Button
+
+        android:id="@+id/btListar"
+        android:onClick="btListarOnClick"
+
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="7dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+
+        android:text="@string/strBtListar"
+        android:textSize="30sp"
+
+        app:layout_constraintStart_toEndOf="@id/btConfirmar"
+        app:layout_constraintTop_toBottomOf="@+id/tvVlr" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

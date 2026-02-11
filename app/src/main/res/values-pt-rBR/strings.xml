@@ -10,4 +10,12 @@
 
     <string name="strHintEtCod">Digite o código do produto</string>
 
+    <string name="strTvQtd">Quantidade:</string>
+
+    <string name="strHintEtQtd">Digite a quantidade de produtos</string>
+    <string name="strTvVlr">Valor:</string>
+    <string name="strHintEtVlr">Digite o valor do produto</string>
+    <string name="strBtConfirmar">Confirmar</string>
+    <string name="strBtListar">Listar</string>
+
 </resources>

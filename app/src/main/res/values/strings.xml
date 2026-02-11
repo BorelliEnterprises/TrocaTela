@@ -2,12 +2,20 @@
 
     //Essa pasta serve para dar nome a todos os componentes das telas. Caso a região não seja especificada
 
-    <string name="app_name">TrocaTela</string>
+    <string name="app_name">ScreenChanges</string>
 
     <string name="btlançamento">Launch</string>
 
     <string name="strTvCod">Code:</string>
 
     <string name="strHintEtCod">Enter the code of the product</string>
+
+    <string name="strTvQtd">Quantity:</string>
+
+    <string name="strHintEtQtd">Enter the amout of products</string>
+    <string name="strTvVlr">Price:</string>
+    <string name="strHintEtVlr">Enter de price of the product</string>
+    <string name="strBtConfirmar">Confirm</string>
+    <string name="strBtListar">List</string>
 
 </resources>
